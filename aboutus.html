@@ -14,10 +14,35 @@
       rel="stylesheet"
       href="node_modules/bootstrap/dist/css/bootstrap.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="node_modules/font-awesome/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap-social/bootstrap-social.css"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
 
   <body>
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <a class="navbar-brand">Ristorante Con Fusion</a>
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="/"
+              ><span class="fa fa-home fa-lg"></span> Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./aboutus.html"><span class="fa fa-info fa-lg"></span> About</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+        </ul>
+      </div>
+    </nav>
     <header class="jumbotron">
       <div class="container">
         <div class="row row-header">
@@ -36,6 +61,10 @@
 
     <div class="container">
       <div class="row">
+        <ol class="col-12 breadcrumb">
+          <li class="breadcrumb-item"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active">About Us</li>
+        </ol>
         <div class="col-12">
           <h3>About Us</h3>
           <hr />
